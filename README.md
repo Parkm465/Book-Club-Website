@@ -17,7 +17,7 @@ A static event website built as part of the CodePath Web Development course.
 - Vanilla JavaScript (DOM manipulation)
 
 ## Live Demo
-👉 https://<your-username>.github.io/story-summit-marathon/
+👉 [https://parkm465.github.io/Book-Club-Website/](https://parkm465.github.io/Book-Club-Website/)
 
 ## Notes
 This project was created as a learning-focused frontend project and demonstrates core web development fundamentals.
