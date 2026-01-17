@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>Story Summit Marathon</title>
+        <link rel="icon" href="./img/book.png">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    
+    <body>
+    
+        <!-- navbar [PLACEHOLDER]
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+        
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+            <ul>
+            <li><a href="#about">About Event</a></li>
+            <li><a href="#event">Event Schedule</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="https://www.codepath.org">CodePath</a></li>
+            <button id="theme-button">Dark Mode OFF</button>
+            <button id="motion-button">Reduce Motion OFF</button>
+            </ul>
+        </div>
+        
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <br>
+        <div class="header-container">
+            <img id="header-img" src="./img/book.png"/>
+            <h1>Story Summit Marathon</h1>
+            <h2>From Thought to Plot!</h2>
+            <div class="header-item">
+                <button class="header-button" type="button">Register</button>
+            <button class="header-button" type="button">Contact Us</button>
+            </div>
+        </div>
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+
+        <h2 id="about">About the Event</h2>
+        <p>Our Story Summit Club provides a supportive environment where University of Maryland, College Park students can develop their creative writing skills and bring their unique ideas to life. </p>
+        <p>Meet weekly for guided workshops that cover essential storytelling elements including character development, plot structure, and world-building techniques. </p>
+        <p>Session combines instruction with hands-on writing exercises, culminating in opportunities for students to share their work and receive constructive feedback from peers and mentors. This club is designed for college students who have a passion for storytelling, regardless of their current writing experience or skill level.</p>
+
+        <br>
+        <h3>What to Expect</h3>
+        <h4> Unleash Your Voice, Ignite Your Imagination. </h4>
+        <ul>
+            <li> <b>Networking & Collaboration:</b> <i> Connect with other creatives.</i></li>
+            <li> <b>Exclusive Resources & Tools :</b> <i> Access guides, feedback sessions, and publishing tips.</i></li>
+            <li> <b>Inspiring Readings & Contests:</b> <i> Showcase your work and celebrate storytelling.</i></li>
+        </ul>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KFCbllY4_2M?si=Kxe_ZS1V1I6PzBI_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <br>
+        <h2 id="event">Event Schedule</h2>
+
+        <img width="100%" alt="A table with Sunday, Tuesday, Thursday, and Saturday having no events. Monday has a Guided Workshop from 5-7 PM. Wednesday has a Peer Review from 5-7 PM. Friday has a Final Sumbission Event from 5-8 PM." src="./img/schedule.png"/>
+        <div class="schedule-container">
+            <div class="schedule-item">
+                <img class="schedule-img" alt="A picture of students working together at a table" src="./img/guide.jpg"/>
+                <h3>Monday - Guided Workshop</h3>
+                <p>Students will explore techniques to transform their personal experiences into compelling fictional narratives.</p>
+            </div>
+            <div class="schedule-item">
+                <img class="schedule-img" alt="A picture of students in a group reviewing each other's papers" src="./img/peer.jpg"/>
+                <h3>Wednesday - Peer Review</h3>
+                <p>Students will share their work and receive constructive feedback.</p>
+            </div>
+
+            <div class="schedule-item">
+                <img class="schedule-img" alt="A student presenting her paper in a class" src="./img/final.jpg"/>
+                <h3>Friday - Final Submission</h3>
+                <p>Students will present their polished short stories or opening chapters.</p>
+            </div>
+        </div>
+        
+
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] 
+        Purpose:
+            - Section for users to sign up for the event
+            - Contains a form for users to input their information, 
+            and a list of other users who have signed up
+
+            When To Modify:
+            - [ ] Project 6 (REQUIRED FEATURE) 
+            - [ ] Project 6 (STRETCH FEATURE) 
+            - [ ] Any time after
+ 
+        -->
+        <div id="rsvp">
+            <h2>RSVP</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <!-- info goes here -->
+                     <p>Whether you’re a seasoned writer or just starting out, this is your chance to spark new ideas and build your writing community. Don’t miss out—sign up today and let your words flow!</p>
+                </div>
+                <div class="rsvp-participants">
+                    <p>📚 DJ has RSVP'd.</p>
+                    <p>📚 Amy has RSVP'd.</p>
+                    <p>📚 Teresa has RSVP'd.</p>
+                    <div class="participants">
+                        <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+                    </div>  
+                </div>
+            </div>
+        
+            <!--- Sign RSVP Form --->
+            <div class="form-container">
+                <form id="rsvp-form" title="rsvp-form">
+                    <!-- form inputs go here -->
+                     <label for="name">Name:</label>
+                     <input type="text" id="name">
+                     <label for="studentId">Student ID:</label>
+                     <input type="text" id="studentId">
+                     <label for="email">Email:</label>
+                     <input type="text" id="email">
+                </form>
+                <!-- Submit button -->
+                <button id="rsvp-button">Submit RSVP</button>
+            </div>    
+        </div>
+        
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+         
+
+        <!-- success modal
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <!-- Text element here -->
+             <p id="modal-text">Placeholder Text</p>
+             <button id = "modal-button">Close</button>
+        </div>
+        <div id="modal-item">
+            <!-- Image element here -->
+             <img id = "modal-image" src="./img/party.png" width="15%">
+        </div>
+    </div>
+</div>
+
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <br>
+        <h2 id="links">Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://www.reddit.com/r/writing/">
+            <article>
+                <h3>Connect with other writers on r/writing subreddit</h3>
+                <p>Discuss writing</p>
+            </article>
+        </a>
+        <a class="block" href="https://en.wikipedia.org/wiki/Creative_writing">
+            <article>
+                <h3>Read about Creative Writing on Wikipedia</h3>
+                <p>Learn about their forms, genres, and elements</p>
+            </article>
+        </a>    
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+         <div class="footer">
+            <a href="https://app.slack.com/client/T0J064FCJ/C08CC8V51NY">
+                <p>Learn More/Email Our Team</p>
+            </a>
+         </div>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="index.js"></script>
+    </body>
+</html>
